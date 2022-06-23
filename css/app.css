@@ -45,7 +45,7 @@ a {
 }
 
 .button {
-    padding: 5px;
+    padding: 5px 10px;
     background-color:#0061ff ;
     color: white;
 }
@@ -56,12 +56,12 @@ a {
     background-color: #b4d0e7 ;
 }
 
-.container {
+.container-large {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.container h1 {
+.container-large h1 {
     font-size: 80px;
     padding-top: 100px;
 }
@@ -75,5 +75,24 @@ a {
     flex-direction: column;
     max-width: calc(100% / 3);
     justify-content: space-between;
+    align-items: flex-start;
 }
 
+.column-left p {
+    font-size: 20px;
+}
+
+.arrow {
+    font-size: 50px;
+}
+
+/* seconda sezione */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title-business-plan {
+    font-size: 45px;
+}
