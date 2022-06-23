@@ -2,6 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header */
+
+.logo-img {
+    max-width: 100pxpx;
 }
 
 .flex {
@@ -21,6 +32,7 @@ a {
     padding: 18px;
     align-items: center;
     gap: 20px;
+    font-size: 12px;
 }
 
 .list-left {
@@ -31,3 +43,37 @@ a {
 .list {
     gap: 20px;
 }
+
+.button {
+    padding: 5px;
+    background-color:#0061ff ;
+    color: white;
+}
+
+/* prima sezione */
+
+.header-main {
+    background-color: #b4d0e7 ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 80px;
+    padding-top: 100px;
+}
+
+.row {
+    padding-top: 60px;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100% / 3);
+    justify-content: space-between;
+}
+
