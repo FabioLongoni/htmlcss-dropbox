@@ -111,7 +111,6 @@ a {
 .card {
     border: 1px solid #d1d1d4;
     width: calc(100% / 3);
-    min-height: 500px;
 }
 
 .icon {
@@ -121,7 +120,7 @@ a {
     border-bottom: 1px solid #d1d1d4;
 }
 
-.card-content {
+.card-content, .left-col, .right-col {
     padding: 15px;
 }
 
@@ -133,7 +132,62 @@ a {
     font-weight: bold;
 }
 
-.offert {
+.card-content span {
     display: block;
+}
+
+.offert {
     color: #898584;
+}
+
+.info-pack {
+    padding: 40px 0;
+} 
+
+.info-pack p {
+    padding: 15px 0;
+}
+
+.card-link {
+    text-decoration: underline;
+    color: blue;
+}
+
+.button-link-card {
+    padding-bottom: 50px;
+}
+
+.info-promo li::before {
+    content: "\2714";
+}
+
+.info-promo-title {
+    padding: 40px 0;
+}
+
+.card-container h5 {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.info-promo li {
+    padding-bottom: 20px;
+}
+
+.col-3 {
+    gap: 40px;
+}
+
+.card1 {
+    border: 1px solid #d1d1d4;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.left-col p {
+    padding-top: 40px;
+}
+
+.right-col {
+    width: calc(100% / 2.5);
 }
