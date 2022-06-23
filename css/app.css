@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+ul, li {
+    list-style:none ;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.header {
+    padding: 18px;
+    align-items: center;
+    gap: 20px;
+}
+
+.list-left {
+    flex-grow: 1;
+    gap: 20px;
+}
+
+.list {
+    gap: 20px;
+}
