@@ -34,6 +34,11 @@ a {
     gap: 20px;
     font-size: 12px;
     white-space: nowrap;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 999;
 }
 
 .list-left {
@@ -64,7 +69,7 @@ a {
 
 .container-large h1 {
     font-size: 80px;
-    padding-top: 100px;
+    padding-top: 140px;
 }
 
 .row {
@@ -290,6 +295,7 @@ h2 {
     aspect-ratio: 1;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .sponsor img {
@@ -326,4 +332,22 @@ h2 {
 
 #clear {
     background-color: #ffd830;
+}
+
+.sponsor:hover {
+    border: 20px solid rgba(0, 0, 0, 0.3);
+}
+
+.dropbox-prova-gratuita {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.dropbox-prova-gratuita h2 {
+    flex-basis: 60%;
+    padding-bottom: 100px;
+}
+
+.section-dropbox-prova-gratuita {
+    background-color: #b4d0e7;
 }
