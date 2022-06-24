@@ -67,7 +67,7 @@ a {
 }
 
 .row {
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 .column-left {
@@ -159,6 +159,7 @@ a {
 
 .info-promo li::before {
     content: "\2714";
+    color: blue;
 }
 
 .info-promo-title {
@@ -191,3 +192,29 @@ a {
 .right-col {
     width: calc(100% / 2.5);
 }
+
+/* terza sezione */
+
+.img-third-section {
+    max-width: calc(100% / 3 * 2);
+}
+
+.partner {
+    gap: 40px;
+}
+
+.button-light {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.description-third-section {
+    padding-top: 50px;
+}
+
+.description-third-section p {
+    padding: 25px 0;
+}
+
+/*  */
