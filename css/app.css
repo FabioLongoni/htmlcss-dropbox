@@ -54,6 +54,7 @@ a {
     padding: 5px 10px;
     background-color:#0061ff ;
     color: white;
+    border: 1px solid #0061ff;
 }
 
 /* prima sezione */
@@ -160,6 +161,7 @@ h2 {
 .card-link {
     text-decoration: underline;
     color: blue;
+    margin-bottom: 50px;
 }
 
 .button-link-card {
@@ -176,6 +178,15 @@ h2 {
 
 .info-promo-title {
     padding: 40px 0;
+}
+
+.info-promo-title h5::before {
+    content: "";
+    display: block;
+    height: 2px;
+    max-width: 50px;
+    background-color: #d3d3d6;
+    margin-bottom: 50px;
 }
 
 .card-container h5 {
@@ -203,12 +214,13 @@ h2 {
 
 .right-col {
     width: calc(100% / 2.5);
+    text-align: end;
 }
 
 /* terza sezione */
 
 .img-third-section {
-    max-width: calc(100% / 3 * 2);
+    max-width: calc(100% / 5 * 3);
 }
 
 .partner {
@@ -218,15 +230,16 @@ h2 {
 .button-light {
     color: black;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid currentColor;
 }
 
 .description-third-section {
     padding-top: 50px;
+    padding-right: 40px;
 }
 
 .description-third-section p {
-    padding: 25px 0;
+    padding: 25px 0 32px 0;
 }
 
 /* quarta sezione */
@@ -241,13 +254,15 @@ h2 {
 }
 
 .card-fourth-section {
-    gap: 30px;
+    gap: 40px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .col-operation {
-    width: calc(calc(100% - 60px)/3);
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 250px;
 }
 
 /* quinta sezione carosello */
@@ -257,7 +272,7 @@ h2 {
     font-size: 14px;
 }
 
-    .carosello-link {
+.carosello-link {
     text-decoration: underline;
     color: blue;
     display: block;
@@ -280,14 +295,23 @@ h2 {
     padding: 50px;
 }
 
-.action-sponsor {
+.active-sponsor {
     max-width: 200px;
-    padding-bottom: 50px;
+    margin-bottom: 40px;
 }
 
-.action-sponsor-address {
+.active-sponsor-address {
     font-style: normal;
     padding-top: 20px;
+}
+
+.active-sponsor-cit::before {
+    content: "";
+    display: block;
+    height: 2px;
+    max-width: 100px;
+    background-color: #d3d3d6;
+    margin-bottom: 40px;
 }
 
 .sponsor {
@@ -335,8 +359,14 @@ h2 {
 }
 
 .sponsor:hover {
-    border: 20px solid rgba(0, 0, 0, 0.3);
+    border: 20px solid rgba(255, 255, 255, 0.3);
 }
+
+.active-carosello {
+    border: 20px solid rgba(255, 255, 255, 0.3);
+}
+
+/* sesta sezione */
 
 .dropbox-prova-gratuita {
     justify-content: space-between;
@@ -350,4 +380,71 @@ h2 {
 
 .section-dropbox-prova-gratuita {
     background-color: #b4d0e7;
+}
+
+
+/* ultima sezione */
+
+.last-section-container {
+    padding: 100px 0 100px 0;
+}
+
+.last-section-container h2 {
+    padding-bottom: 50px;
+}
+
+.list-ask {
+    justify-content: space-between;
+    padding: 40px 0 40px 0;
+    border-top: 1px solid #999999;
+    align-items: center;
+}
+
+.ask {
+    font-weight: bold;
+}
+
+.list-ask-generaly:last-child {
+    border-bottom: 1px solid #999999;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.first-footer-container {
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.footer-list ul li {
+    padding: 8px 0;
+}
+
+.footer-list h4 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.second-footer-container {
+    padding: 20px 0 20px;
+}
+
+.lang {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.second-footer-container::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: white;
+    max-width: 100px;
+    margin-bottom: 50px;
 }
