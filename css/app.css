@@ -60,7 +60,9 @@ a {
 /* prima sezione */
 
 .header-main {
-    background-color: #b4d0e7 ;
+    background-color: #b4d0e7;
+    position: relative;
+    margin-bottom: 50px;
 }
 
 .container-large {
@@ -71,6 +73,11 @@ a {
 .container-large h1 {
     font-size: 80px;
     padding-top: 140px;
+}
+
+.img-header-main img {
+    position: absolute;
+    max-width: 800px;
 }
 
 .row {
@@ -221,6 +228,7 @@ h2 {
     width: calc(100% / 3);
     text-align: end;
 }
+
 
 /* terza sezione */
 
